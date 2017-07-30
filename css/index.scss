@@ -1,0 +1,243 @@
+$mainColour: #7777bb;
+
+.intro-component{
+    padding: 20px;
+    background: $mainColour;
+    color: #fff;
+    font-family: arial;
+
+    h1{
+        text-transform: uppercase;
+    }
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0 ;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 2px solid #FF2F63;
+}
+
+form
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.centeredBody {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  height: 560px;
+  width: 500px;
+  background-color: white;
+}
+
+.header{
+  height: 80px;
+  background-color: #323A45;
+  border-radius: 5px 5px 0 0;
+}
+
+.inPictures{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  width: 40px;
+}
+
+.triangle{
+  width: 20px;
+  margin-left: 240px;
+  margin-top:-10px;
+}
+
+#freeText{
+  color: #FF2F63;
+  display: inline-block;
+}
+
+.textStart{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 130px;
+}
+
+.textGet{
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 185px;
+  color: silver;
+}
+
+.textService{
+  margin-top: 20px;
+  font-size: 10px;
+  margin-left: 140px;
+  color: silver;
+}
+
+
+.button {
+    background-color: #FF2F63; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    width:384px;
+}
+
+.textAccount{
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+
+.baskteball{
+    width: 12px;
+}
+
+.iconTwitter{
+   margin-left: 230px;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    height:100vh;
+    background-image: url('http://miriadna.com/desctopwalls/images/max/Blue-sea,-blue-sky.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropDownButton{
+    background-color: #E8644B;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    width:145px;
+    height: 50px;
+    p{
+        margin-bottom:0px;
+    }
+}
+
+.dropItem{
+      background-color: #E8644B;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      height: 50px;
+      width: 145px;
+      vertical-align: middle;
+      padding-top: 14px;
+      img{
+        margin-right: 10px;
+      }
+         
+}
+
+.dropItem:hover{
+  background-color: #E8643B;
+}
+
+.itemImage{
+   width: 30px;
+}
+
+.icon{
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 20px;
+ 
+}
+
+.dropItems{
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      height: 50px;
+      width: 145px;
+      vertical-align: middle;
+      padding-top: 0px;
+      margin-bottom: 16px;
+}
+
+.dropItem:first-child{
+      border-radius: 5px 5px 0px 0px; 
+}
+
+.dropItem:last-child{
+      border-radius: 0px 0px 5px 5px; 
+}
+
+.list{
+  margin-left: -40px;
+}
+
+.triangleDropMenu{
+  margin-left: 108px;
+  width: 22px;
+  padding-bottom: -10px;
+  margin-bottom: -10px;
+}
+
+ul {
+  list-style-type: none;
+}
